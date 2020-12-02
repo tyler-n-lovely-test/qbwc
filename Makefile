@@ -25,3 +25,6 @@ types: dev
 	./env/bin/python tasks/qbwc_xml_to_enum.py
 	./env/bin/python tasks/qbwc_xml_to_optional_required_repeatable.py
 	./env/bin/python tasks/qbwc_json_to_types.py
+	
+test-echo:
+	echo test
